@@ -10,12 +10,16 @@
 		75B22B5016E08251005A6641 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B22B4F16E08251005A6641 /* UIKit.framework */; };
 		75B22B5216E08251005A6641 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B22B5116E08251005A6641 /* Foundation.framework */; };
 		75B22B5416E08251005A6641 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B22B5316E08251005A6641 /* CoreGraphics.framework */; };
-		75B22B5A16E08251005A6641 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75B22B5816E08251005A6641 /* InfoPlist.strings */; };
-		75B22B5C16E08251005A6641 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B22B5B16E08251005A6641 /* main.m */; };
-		75B22B6016E08251005A6641 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B22B5F16E08251005A6641 /* AppDelegate.m */; };
-		75B22B6216E08251005A6641 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B22B6116E08251005A6641 /* Default.png */; };
-		75B22B6416E08251005A6641 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B22B6316E08251005A6641 /* Default@2x.png */; };
-		75B22B6616E08251005A6641 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B22B6516E08251005A6641 /* Default-568h@2x.png */; };
+		75B22B7A16E08436005A6641 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B22B6E16E08436005A6641 /* AppDelegate.m */; };
+		75B22B7B16E08436005A6641 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B22B6F16E08436005A6641 /* main.m */; };
+		75B22B7C16E08436005A6641 /* debug-logging-sample-ios-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75B22B7116E08436005A6641 /* debug-logging-sample-ios-Info.plist */; };
+		75B22B7D16E08436005A6641 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75B22B7416E08436005A6641 /* InfoPlist.strings */; };
+		75B22B7E16E08436005A6641 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B22B7716E08436005A6641 /* Default-568h@2x.png */; };
+		75B22B7F16E08436005A6641 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B22B7816E08436005A6641 /* Default.png */; };
+		75B22B8016E08436005A6641 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B22B7916E08436005A6641 /* Default@2x.png */; };
+		75B22B9616E08489005A6641 /* debug-logging-ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B22B9516E08489005A6641 /* debug-logging-ios.framework */; };
+		75B22B9916E084EB005A6641 /* ApplicationWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B22B9816E084EB005A6641 /* ApplicationWindow.m */; };
+		75B22B9D16E08805005A6641 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B22B9C16E08805005A6641 /* iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,15 +27,19 @@
 		75B22B4F16E08251005A6641 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		75B22B5116E08251005A6641 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75B22B5316E08251005A6641 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		75B22B5716E08251005A6641 /* debug-logging-sample-ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "debug-logging-sample-ios-Info.plist"; sourceTree = "<group>"; };
-		75B22B5916E08251005A6641 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		75B22B5B16E08251005A6641 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		75B22B5D16E08251005A6641 /* debug-logging-sample-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "debug-logging-sample-ios-Prefix.pch"; sourceTree = "<group>"; };
-		75B22B5E16E08251005A6641 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		75B22B5F16E08251005A6641 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		75B22B6116E08251005A6641 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		75B22B6316E08251005A6641 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		75B22B6516E08251005A6641 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		75B22B6D16E08436005A6641 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75B22B6E16E08436005A6641 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75B22B6F16E08436005A6641 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75B22B7116E08436005A6641 /* debug-logging-sample-ios-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "debug-logging-sample-ios-Info.plist"; sourceTree = "<group>"; };
+		75B22B7216E08436005A6641 /* debug-logging-sample-ios-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "debug-logging-sample-ios-Prefix.pch"; sourceTree = "<group>"; };
+		75B22B7516E08436005A6641 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		75B22B7716E08436005A6641 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		75B22B7816E08436005A6641 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		75B22B7916E08436005A6641 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		75B22B9516E08489005A6641 /* debug-logging-ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "debug-logging-ios.framework"; path = "external/debug-logging-ios/debug-logging-ios.framework"; sourceTree = SOURCE_ROOT; };
+		75B22B9716E084EB005A6641 /* ApplicationWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationWindow.h; sourceTree = "<group>"; };
+		75B22B9816E084EB005A6641 /* ApplicationWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationWindow.m; sourceTree = "<group>"; };
+		75B22B9C16E08805005A6641 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,7 @@
 				75B22B5016E08251005A6641 /* UIKit.framework in Frameworks */,
 				75B22B5216E08251005A6641 /* Foundation.framework in Frameworks */,
 				75B22B5416E08251005A6641 /* CoreGraphics.framework in Frameworks */,
+				75B22B9616E08489005A6641 /* debug-logging-ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +77,7 @@
 		75B22B4E16E08251005A6641 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				75B22B9516E08489005A6641 /* debug-logging-ios.framework */,
 				75B22B4F16E08251005A6641 /* UIKit.framework */,
 				75B22B5116E08251005A6641 /* Foundation.framework */,
 				75B22B5316E08251005A6641 /* CoreGraphics.framework */,
@@ -78,25 +88,52 @@
 		75B22B5516E08251005A6641 /* debug-logging-sample-ios */ = {
 			isa = PBXGroup;
 			children = (
-				75B22B5E16E08251005A6641 /* AppDelegate.h */,
-				75B22B5F16E08251005A6641 /* AppDelegate.m */,
-				75B22B5616E08251005A6641 /* Supporting Files */,
+				75B22B6C16E08436005A6641 /* application */,
+				75B22B7016E08436005A6641 /* constants */,
+				75B22B7116E08436005A6641 /* debug-logging-sample-ios-Info.plist */,
+				75B22B7216E08436005A6641 /* debug-logging-sample-ios-Prefix.pch */,
+				75B22B7316E08436005A6641 /* en.lproj */,
+				75B22B7616E08436005A6641 /* interface */,
 			);
 			path = "debug-logging-sample-ios";
 			sourceTree = "<group>";
 		};
-		75B22B5616E08251005A6641 /* Supporting Files */ = {
+		75B22B6C16E08436005A6641 /* application */ = {
 			isa = PBXGroup;
 			children = (
-				75B22B5716E08251005A6641 /* debug-logging-sample-ios-Info.plist */,
-				75B22B5816E08251005A6641 /* InfoPlist.strings */,
-				75B22B5B16E08251005A6641 /* main.m */,
-				75B22B5D16E08251005A6641 /* debug-logging-sample-ios-Prefix.pch */,
-				75B22B6116E08251005A6641 /* Default.png */,
-				75B22B6316E08251005A6641 /* Default@2x.png */,
-				75B22B6516E08251005A6641 /* Default-568h@2x.png */,
+				75B22B6D16E08436005A6641 /* AppDelegate.h */,
+				75B22B6E16E08436005A6641 /* AppDelegate.m */,
+				75B22B6F16E08436005A6641 /* main.m */,
+				75B22B9716E084EB005A6641 /* ApplicationWindow.h */,
+				75B22B9816E084EB005A6641 /* ApplicationWindow.m */,
 			);
-			name = "Supporting Files";
+			path = application;
+			sourceTree = "<group>";
+		};
+		75B22B7016E08436005A6641 /* constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = constants;
+			sourceTree = "<group>";
+		};
+		75B22B7316E08436005A6641 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				75B22B7416E08436005A6641 /* InfoPlist.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		75B22B7616E08436005A6641 /* interface */ = {
+			isa = PBXGroup;
+			children = (
+				75B22B9C16E08805005A6641 /* iPhone.storyboard */,
+				75B22B7716E08436005A6641 /* Default-568h@2x.png */,
+				75B22B7816E08436005A6641 /* Default.png */,
+				75B22B7916E08436005A6641 /* Default@2x.png */,
+			);
+			path = interface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,10 +187,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75B22B5A16E08251005A6641 /* InfoPlist.strings in Resources */,
-				75B22B6216E08251005A6641 /* Default.png in Resources */,
-				75B22B6416E08251005A6641 /* Default@2x.png in Resources */,
-				75B22B6616E08251005A6641 /* Default-568h@2x.png in Resources */,
+				75B22B7C16E08436005A6641 /* debug-logging-sample-ios-Info.plist in Resources */,
+				75B22B7D16E08436005A6641 /* InfoPlist.strings in Resources */,
+				75B22B7E16E08436005A6641 /* Default-568h@2x.png in Resources */,
+				75B22B7F16E08436005A6641 /* Default.png in Resources */,
+				75B22B8016E08436005A6641 /* Default@2x.png in Resources */,
+				75B22B9D16E08805005A6641 /* iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,18 +203,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75B22B5C16E08251005A6641 /* main.m in Sources */,
-				75B22B6016E08251005A6641 /* AppDelegate.m in Sources */,
+				75B22B7A16E08436005A6641 /* AppDelegate.m in Sources */,
+				75B22B7B16E08436005A6641 /* main.m in Sources */,
+				75B22B9916E084EB005A6641 /* ApplicationWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		75B22B5816E08251005A6641 /* InfoPlist.strings */ = {
+		75B22B7416E08436005A6641 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				75B22B5916E08251005A6641 /* en */,
+				75B22B7516E08436005A6641 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -244,6 +284,10 @@
 		75B22B6A16E08251005A6641 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/external/debug-logging-ios\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "debug-logging-sample-ios/debug-logging-sample-ios-Prefix.pch";
 				INFOPLIST_FILE = "debug-logging-sample-ios/debug-logging-sample-ios-Info.plist";
@@ -255,6 +299,10 @@
 		75B22B6B16E08251005A6641 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/external/debug-logging-ios\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "debug-logging-sample-ios/debug-logging-sample-ios-Prefix.pch";
 				INFOPLIST_FILE = "debug-logging-sample-ios/debug-logging-sample-ios-Info.plist";
